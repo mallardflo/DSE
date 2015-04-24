@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  23 APR 2015 19:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  24 APR 2015 12:33
 entering extended mode
 **main.tex
 
@@ -440,39 +440,71 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/flo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.to
-c")
+c"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 4.
+)
 \tf@toc=\write3
  [2]
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\input/i
 ntroduction.tex")
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\input/e
-xisting.tex")
+xisting.tex"
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 8.
+ (F:\Documents\LaTeX\tex\latex\lm\omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 8.
+
+<input/current-location.png, id=14, 402.50375pt x 300.12125pt>
+File: input/current-location.png Graphic file (type png)
+
+<use input/current-location.png>
+Package pdftex.def Info: input/current-location.png used on input line 20.
+(pdftex.def)             Requested size: 148.92404pt x 111.04312pt.
+
+<input/directions.png, id=15, 602.25pt x 338.26375pt>
+File: input/directions.png Graphic file (type png)
+
+<use input/directions.png>
+Package pdftex.def Info: input/directions.png used on input line 30.
+(pdftex.def)             Requested size: 253.51608pt x 142.3898pt.
+)
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\input/g
-oogle.tex")
+oogle.tex" [3 <F:/Documents/Bucharest/Cours/Distributed Systems/Project/Report 
+step2/input/current-location.png>])
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.bb
 l"
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [3]
+) [4 <F:/Documents/Bucharest/Cours/Distributed Systems/Project/Report step2/inp
+ut/directions.png>]
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.au
 x") ) 
 Here is how much of TeX's memory you used:
- 4875 strings out of 493921
- 64060 string characters out of 3150898
- 130363 words of memory out of 3000000
- 8042 multiletter control sequences out of 15000+200000
- 46560 words of font info for 44 fonts, out of 3000000 for 9000
+ 4950 strings out of 493921
+ 65149 string characters out of 3150898
+ 133379 words of memory out of 3000000
+ 8099 multiletter control sequences out of 15000+200000
+ 61907 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,6n,39p,583b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/Documents/LaTeX/fonts/enc/dvips/lm/lm-ec.enc}<F:/Documents/LaTeX/fonts
-/type1/public/lm/lmbx10.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmbx12.pf
-b><F:/Documents/LaTeX/fonts/type1/public/lm/lmbx9.pfb><F:/Documents/LaTeX/fonts
-/type1/public/lm/lmcsc10.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmr10.pf
-b><F:/Documents/LaTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on main.pdf (3 pages, 156659 bytes).
+ 37i,8n,39p,735b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+{F:/Documents/LaTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{F:/Documents/LaTeX/f
+onts/enc/dvips/lm/lm-ec.enc}<F:/Documents/LaTeX/fonts/type1/public/lm/lmbx10.pf
+b><F:/Documents/LaTeX/fonts/type1/public/lm/lmbx12.pfb><F:/Documents/LaTeX/font
+s/type1/public/lm/lmbx9.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmcsc10.p
+fb><F:/Documents/LaTeX/fonts/type1/public/lm/lmr10.pfb><F:/Documents/LaTeX/font
+s/type1/public/lm/lmr12.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmsy10.pf
+b>
+Output written on main.pdf (4 pages, 259817 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
