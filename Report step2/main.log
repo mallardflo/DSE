@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  23 APR 2015 18:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  23 APR 2015 19:07
 entering extended mode
 **main.tex
 
@@ -448,23 +448,29 @@ ntroduction.tex")
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\input/e
 xisting.tex")
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\input/g
-oogle.tex") [3]
+oogle.tex")
+("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.bb
+l"
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [3]
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.au
 x") ) 
 Here is how much of TeX's memory you used:
- 4872 strings out of 493921
- 63900 string characters out of 3150898
- 129363 words of memory out of 3000000
+ 4875 strings out of 493921
+ 64060 string characters out of 3150898
+ 130363 words of memory out of 3000000
  8042 multiletter control sequences out of 15000+200000
  46560 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,6n,39p,242b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,6n,39p,583b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 {F:/Documents/LaTeX/fonts/enc/dvips/lm/lm-ec.enc}<F:/Documents/LaTeX/fonts
 /type1/public/lm/lmbx10.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmbx12.pf
 b><F:/Documents/LaTeX/fonts/type1/public/lm/lmbx9.pfb><F:/Documents/LaTeX/fonts
 /type1/public/lm/lmcsc10.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmr10.pf
 b><F:/Documents/LaTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on main.pdf (3 pages, 147305 bytes).
+Output written on main.pdf (3 pages, 156659 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
