@@ -4,4 +4,10 @@
 \contentsline {subsection}{\numberline {2.1}Bluebridge}{3}
 \contentsline {paragraph}{GPS locating}{3}
 \contentsline {paragraph}{GPS directions}{4}
-\contentsline {section}{\numberline {3}Google Maps API}{4}
+\contentsline {paragraph}{Itinerary planner}{4}
+\contentsline {paragraph}{Experience guides}{4}
+\contentsline {subsection}{\numberline {2.2}mTrip}{5}
+\contentsline {paragraph}{Offline content}{5}
+\contentsline {paragraph}{Augmented reality}{5}
+\contentsline {paragraph}{Nearby places}{5}
+\contentsline {section}{\numberline {3}Google Maps API}{5}

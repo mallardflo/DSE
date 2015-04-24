@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  24 APR 2015 12:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  25 APR 2015 02:08
 entering extended mode
 **main.tex
 
@@ -474,23 +474,23 @@ File: input/directions.png Graphic file (type png)
 <use input/directions.png>
 Package pdftex.def Info: input/directions.png used on input line 30.
 (pdftex.def)             Requested size: 253.51608pt x 142.3898pt.
-)
+ [3 <F:/Documents/Bucharest/Cours/Distributed Systems/Project/Report step2/inpu
+t/current-location.png>] [4 <F:/Documents/Bucharest/Cours/Distributed Systems/P
+roject/Report step2/input/directions.png>])
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\input/g
-oogle.tex" [3 <F:/Documents/Bucharest/Cours/Distributed Systems/Project/Report 
-step2/input/current-location.png>])
+oogle.tex")
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.bb
 l"
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [4 <F:/Documents/Bucharest/Cours/Distributed Systems/Project/Report step2/inp
-ut/directions.png>]
+) [5]
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.au
 x") ) 
 Here is how much of TeX's memory you used:
  4950 strings out of 493921
  65149 string characters out of 3150898
- 133379 words of memory out of 3000000
+ 134379 words of memory out of 3000000
  8099 multiletter control sequences out of 15000+200000
  61907 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -502,9 +502,9 @@ s/type1/public/lm/lmbx9.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmcsc10.p
 fb><F:/Documents/LaTeX/fonts/type1/public/lm/lmr10.pfb><F:/Documents/LaTeX/font
 s/type1/public/lm/lmr12.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmsy10.pf
 b>
-Output written on main.pdf (4 pages, 259817 bytes).
+Output written on main.pdf (5 pages, 267252 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
