@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  25 APR 2015 02:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.7)  26 APR 2015 20:44
 entering extended mode
 **main.tex
 
@@ -461,14 +461,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 8.
 
-<input/current-location.png, id=14, 402.50375pt x 300.12125pt>
+<input/current-location.png, id=13, 402.50375pt x 300.12125pt>
 File: input/current-location.png Graphic file (type png)
 
 <use input/current-location.png>
 Package pdftex.def Info: input/current-location.png used on input line 20.
 (pdftex.def)             Requested size: 148.92404pt x 111.04312pt.
 
-<input/directions.png, id=15, 602.25pt x 338.26375pt>
+<input/directions.png, id=14, 602.25pt x 338.26375pt>
 File: input/directions.png Graphic file (type png)
 
 <use input/directions.png>
@@ -478,33 +478,47 @@ Package pdftex.def Info: input/directions.png used on input line 30.
 t/current-location.png>] [4 <F:/Documents/Bucharest/Cours/Distributed Systems/P
 roject/Report step2/input/directions.png>])
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\input/g
-oogle.tex")
+oogle.tex" [5]
+<input/marker-infowindows.png, id=25, 233.87375pt x 151.56625pt>
+File: input/marker-infowindows.png Graphic file (type png)
+
+<use input/marker-infowindows.png>
+Package pdftex.def Info: input/marker-infowindows.png used on input line 37.
+(pdftex.def)             Requested size: 187.09923pt x 121.25316pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+Overfull \hbox (2.72574pt too wide) in paragraph at lines 49--50
+[] []\T1/lmr/bx/n/10 Di-rec-tions API[] \T1/lmr/m/n/10 This ser-vice cal-cu-lat
+es di-rec-tions be-tween dif-fer-ent lo-ca-tions, for static adresses.
+ []
+
+)
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.bb
-l"
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [5]
+l" [7 <F:/Documents/Bucharest/Cours/Distributed Systems/Project/Report step2/in
+put/marker-infowindows.png>]) [8]
 ("F:\Documents\Bucharest\Cours\Distributed Systems\Project\Report step2\main.au
 x") ) 
 Here is how much of TeX's memory you used:
- 4950 strings out of 493921
- 65149 string characters out of 3150898
- 134379 words of memory out of 3000000
- 8099 multiletter control sequences out of 15000+200000
- 61907 words of font info for 63 fonts, out of 3000000 for 9000
+ 4957 strings out of 493921
+ 65324 string characters out of 3150898
+ 134399 words of memory out of 3000000
+ 8106 multiletter control sequences out of 15000+200000
+ 60177 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  37i,8n,39p,735b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/Documents/LaTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{F:/Documents/LaTeX/f
-onts/enc/dvips/lm/lm-ec.enc}<F:/Documents/LaTeX/fonts/type1/public/lm/lmbx10.pf
+{F:/Documents/LaTeX/fonts/enc/dvips/lm/lm-ec.enc}{F:/Documents/LaTeX/fonts
+/enc/dvips/lm/lm-mathsy.enc}<F:/Documents/LaTeX/fonts/type1/public/lm/lmbx10.pf
 b><F:/Documents/LaTeX/fonts/type1/public/lm/lmbx12.pfb><F:/Documents/LaTeX/font
-s/type1/public/lm/lmbx9.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmcsc10.p
-fb><F:/Documents/LaTeX/fonts/type1/public/lm/lmr10.pfb><F:/Documents/LaTeX/font
-s/type1/public/lm/lmr12.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmsy10.pf
-b>
-Output written on main.pdf (5 pages, 267252 bytes).
+s/type1/public/lm/lmcsc10.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmr10.p
+fb><F:/Documents/LaTeX/fonts/type1/public/lm/lmr12.pfb><F:/Documents/LaTeX/font
+s/type1/public/lm/lmri10.pfb><F:/Documents/LaTeX/fonts/type1/public/lm/lmsy10.p
+fb>
+Output written on main.pdf (8 pages, 347248 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

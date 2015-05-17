@@ -1,3 +1,18 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{bluebridge}
+Bluebridge website.
+\newblock http://gobluebridge.com/.
+\newblock Accessed: 2015-04.
+
+\bibitem{Google}
+{Google API} developer documentation.
+\newblock https://developers.google.com/maps/documentation/.
+\newblock Accessed: 2015-04.
+
+\bibitem{mtrip}
+mtrip website.
+\newblock http://www.mtrip.com/.
+\newblock Accessed: 2015-04.
 
 \end{thebibliography}

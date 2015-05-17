@@ -11,3 +11,13 @@
 \contentsline {paragraph}{Augmented reality}{5}
 \contentsline {paragraph}{Nearby places}{5}
 \contentsline {section}{\numberline {3}Google Maps API}{5}
+\contentsline {subsection}{\numberline {3.1}Google Maps Android API}{6}
+\contentsline {paragraph}{Add a Map to the application}{6}
+\contentsline {paragraph}{Drawing on the Map}{6}
+\contentsline {paragraph}{Interaction with the Map}{7}
+\contentsline {paragraph}{Location Services}{7}
+\contentsline {subsection}{\numberline {3.2}Google Maps API Web Services}{7}
+\contentsline {paragraph}{Directions API}{7}
+\contentsline {paragraph}{Distance Matrix API}{7}
+\contentsline {paragraph}{Geocoding API}{7}
+\contentsline {subsection}{\numberline {3.3}Google Places API}{7}
