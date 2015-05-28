@@ -34,17 +34,18 @@
             <form action="" method="get" name="direction" id="direction">
                 <label>Starting Point :</label>
                 <input type="text" name="origin" id="origin"> <br />
-                <a onclick="create()" style="cursor:pointer; text-decoration: underline;">Add a place you want to visit</a>
-                <input type="text" name="text" id="point"/>
 		<br />
                 <label>Destination :</label>
-                <input type="text" name="destination" id="destination">
-                <input type="button" value="Calculer l'itinéraire" onclick="javascript:calculate()">
+                <input type="text" name="destination" id="destination"> <br />
+                <label>Add a place you want to visit : </label>
+                <input type="text" name="text" id="point"/> <br />
+                <input type="button" onclick="create()" value="Add">
                 <div>
                     <label>Here are the places you want to visit :</label> <br />
                 <select multiple id="waypoints" style="width:300px">
                 </select>
                 </div>
+                <input type="button" value="Calculer l'itinéraire" onclick="javascript:calculate()">
             </form>
             <input type="hidden" id="compteur" value="1" />
         </div>
