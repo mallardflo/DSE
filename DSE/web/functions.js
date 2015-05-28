@@ -68,11 +68,23 @@ initialize = function(){
 calculate = function(){
     origin      = document.getElementById('origin').value; // Le point départ
     destination = document.getElementById('destination').value; // Le point d'arrivé
-    if(origin && destination){
+    waypoints   = document.getElementById('waypoints')[0].value;
+    
+    var waypts = [];
+    var waypointsArray = document.getElementById('waypoints');
+    for (var i = 0; i < waypointsArray.length; i++) {
+            waypts.push({
+            location:waypoints[i].value,
+            stopover:true});
+    }
+
+    if(origin && destination && waypoints){
         var request = {
             origin      : origin,
             destination : destination,
-            travelMode  : google.maps.DirectionsTravelMode.DRIVING // Mode de conduite
+            waypoints: waypts,
+            optimizeWaypoints: true,
+            travelMode  : google.maps.DirectionsTravelMode.WALKING// Mode de conduite
         }
         var directionsService = new google.maps.DirectionsService(); // Service de calcul d'itinéraire
         directionsService.route(request, function(response, status){ // Envoie de la requête pour calculer le parcours
