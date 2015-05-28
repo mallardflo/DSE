@@ -21,13 +21,14 @@
           });
       
     
-    }
+    
        google.maps.event.addListener(m,'click',placeMarker(event));
         
     if (navigator.geolocation)
       var watchId = navigator.geolocation.watchPosition(successCallback, null, {enableHighAccuracy:true});
     else
       alert("Votre navigateur ne prend pas en compte la géolocalisation HTML5");
+  }
   
   function placeMarker(event){
       var m = new google.maps.Marker({
