@@ -32,6 +32,8 @@ var myOptions = {
       });
 
       map.setCenter(pos);
+      
+      var watch = navigator.geolocation.watchPosition(currentPosition);
     }, function() {
       handleNoGeolocation(true);
     });
