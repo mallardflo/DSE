@@ -66,7 +66,7 @@ initialize = function(){
 };
 
 calculate = function(){
-   // var timeStart = (newDate()).getTime();
+    var timeStart = (new Date()).getTime();
     var origin      = document.getElementById('origin').value; // Le point départ
     var destination = document.getElementById('destination').value; // Le point d'arrivée
     //var waypoints   = document.getElementById('waypoints');
@@ -106,10 +106,10 @@ calculate = function(){
         
     }
         });
-        //var timeStop = (newDate().getTime());
-        //var totalTime = timeStop - timeStart;
-        //var destinationForm = document.getElementById('destinationForm');
-        //destinationForm.innerHTML += '<br /> Response Time: ' + totalTime + '<br />'; 
+        var timeStop = (new Date().getTime());
+        var totalTime = timeStop - timeStart;
+        var destinationForm = document.getElementById('destinationForm');
+        destinationForm.innerHTML += '<br /> Response Time: ' + totalTime + ' ms<br />'; 
    
 
 };
