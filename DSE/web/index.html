@@ -1,78 +1,93 @@
 <!DOCTYPE html> 
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Calcul d'itinéraire Google Map Api v3</title>
-    <link rel="stylesheet" href="jquery-ui-1.8.12.custom.css" type="text/css" /> 
-    <style type="text/css">
-    body{font-family:Arial;background:#000000;margin:0px;padding:0px;}
-    #container{position:relative;width:990px;margin:auto;background:#FFFFFF;padding:20px 0px 20px 0px;}
-    #container h1{margin:0px 0px 10px 20px;}
-    #container #map{width:700px;height:500px;margin:auto;}
-    #container #panel{width:700px;margin:auto;}
-    #container #destinationForm{margin:0px 0px 20px 0px;background:#EEEEEE;padding:10px 20px;border:solid 1px #C0C0C0;}
-    #container #destinationForm input[type=text]{border:solid 1px #C0C0C0;}
-    
-    .panel a:after {
-    font-family:'Glyphicons Halflings';
-    content:"\e114";
-    float: right;
-    color: grey;
-}
-.panel a.collapsed:after {
-    content:"\e080";
-}
-  </style>
-    <script type="text/javascript">
-		function create()
-		{
-			var point = document.getElementById('point');
-			var waypoints = document.getElementById('waypoints');
-			
-			
-				++compteur.value;
-				waypoints.innerHTML += "<option value='"+point.value+"'>"+point.value+"</option>";
-                                
-                                point.value = "";
-			
-		}
-	</script>
-  </head>
-  
-  <body onload="initialize()">
-    <div id="container">
-        <h1>Guided Tour with Google Maps Api V3</h1>
-        <div id="destinationForm">
-            <form action="" method="get" name="direction" id="direction">
-                <label>Starting Point :</label>
-                <input type="text" name="origin" id="origin"> <br />
-		<br />
-                <label>Destination :</label>
-                <input type="text" name="destination" id="destination"> <br />
-                <label>Add places you want to visit : </label>
-                <input type="text" name="text" id="point"/> <br />
-                <input type="button" onclick="create()" value="Add">
-                <div>
-                    <label>Here are the places you want to visit :</label> <br />
-                <select multiple id="waypoints" style="width:300px">
-                </select>
-                </div>
-                <input type="button" value="Calculer l'itinéraire" onclick="javascript:calculate()">
-            </form>
-            <input type="hidden" id="compteur" value="1" />
-            <div id="responseTime"></div>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>DSE Project Google Maps</title>
+        <link rel="stylesheet" href="jquery-ui-1.8.12.custom.css" type="text/css" /> 
+        <style type="text/css">
+            body{font-family:Arial;background:#000000;margin:0px;padding:0px;}
+            #container{position:relative;width:990px;margin:auto;background:#FFFFFF;padding:20px 0px 20px 0px;}
+            #container h1{margin:0px 0px 10px 20px;}
+            #container #map{width:700px;height:500px;margin:auto;}
+            #container #panel{width:700px;margin:auto;}
+            #container #destinationForm{margin:0px 0px 20px 0px;background:#EEEEEE;padding:10px 20px;border:solid 1px #C0C0C0;}
+            #container #destinationForm input[type=text]{border:solid 1px #C0C0C0;}
+
+            .panel a:after {
+                font-family:'Glyphicons Halflings';
+                content:"\e114";
+                float: right;
+                color: grey;
+            }
+            .panel a.collapsed:after {
+                content:"\e080";
+            }
+        </style>
+        <script type="text/javascript">
+            function create()
+            {
+                var point = document.getElementById('point');
+                var waypoints = document.getElementById('waypoints');
+
+
+                ++compteur.value;
+                waypoints.innerHTML += "<option value='" + point.value + "'>" + point.value + "</option>";
+
+                point.value = "";
+
+            }
+
+            function emptyWaypoints() {
+                document.getElementById('waypoints').innerHTML = "";
+            }
+
+            function switchInstructions()
+            {
+                divInfo = document.getElementById('panel');
+                if (divInfo.style.display == 'none')
+                    divInfo.style.display = 'block';
+                else
+                    divInfo.style.display = 'none';
+            }
+        </script>
+    </head>
+
+    <body onload="initialize()">
+        <div id="container">
+            <h1>Guided Tour with Google Maps Api V3</h1>
+            <div id="destinationForm">
+                <form action="" method="get" name="direction" id="direction">
+                    <label>Starting Point :</label>
+                    <input type="text" name="origin" id="origin"> <br />
+                    <br />
+                    <label>Destination :</label>
+                    <input type="text" name="destination" id="destination"> <br />
+                    <label>Add places you want to visit : </label>
+                    <input type="text" name="text" id="point"/> <br />
+                    <input type="button" onclick="create()" value="Add">
+                    <div>
+                        <label>Here are the places you want to visit :</label> <br />
+                        <select multiple id="waypoints" style="width:300px">
+                        </select>
+                    </div>
+                    <input type="button" value="Calculate route" onclick="javascript:calculate()">
+                    <input type="button" onClick="emptyWaypoints()" value="Clear">
+                </form>
+                <input type="hidden" id="compteur" value="1" />
+                <div id="responseTime"></div>
+            </div>
+            <a href="javascript: switchInstructions();">Display route instructions</a>
+            <div id="panel" style="display:none"></div>
+            <div id="map">
+                <p>Please wait while the map is loading...</p>
+            </div>
         </div>
-        <div id="panel"></div>
-        <div id="map">
-            <p>Please wait while the map is charging...</p>
-        </div>
-    </div>
-    
-    <!-- Include Javascript -->
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="jquery-ui-1.8.12.custom.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=en"></script>
-    <script type="text/javascript" src="functions.js"></script>
-    <script type="text/javascript" src="calculation.js"></script>
-  </body>
+
+        <!-- Include Javascript -->
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.8.12.custom.min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=en"></script>
+        <script type="text/javascript" src="functions.js"></script>
+        <script type="text/javascript" src="calculation.js"></script>
+    </body>
 </html>
