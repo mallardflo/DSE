@@ -117,7 +117,7 @@ var myOptions = {
 };
 
 calculate = function(){
-   
+    document.getElementById('responseTime').innerHTML = "";
     var timeStart = (new Date()).getTime();
     var origin      = document.getElementById('origin').value; // Le point départ
     var destination = document.getElementById('destination').value; // Le point d'arrivée
@@ -189,14 +189,12 @@ calculate = function(){
         });
         var timeStop = (new Date().getTime());
         var totalTime = timeStop - timeStart;
-        var destinationForm = document.getElementById('destinationForm');
-        destinationForm.innerHTML += '<br /> Response Time: ' + totalTime + ' ms<br />'; 
-   
-
+        document.getElementById('responseTime').innerHTML += '<br /> Response Time: ' + totalTime + ' ms<br />'; 
+    };
+    document.getElementById('waypoints').innerHTML = "";
 };
-}
+
+
 
  initialize();
-
-     
 
