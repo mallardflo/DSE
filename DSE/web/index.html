@@ -26,12 +26,14 @@
     <script type="text/javascript">
 		function create()
 		{
-			var point = document.getElementById('point').value;
+			var point = document.getElementById('point');
 			var waypoints = document.getElementById('waypoints');
 			
 			
 				++compteur.value;
-				waypoints.innerHTML += "<option value='"+point+"'>"+point+"</option>";
+				waypoints.innerHTML += "<option value='"+point.value+"'>"+point.value+"</option>";
+                                
+                                point.value = "";
 			
 		}
 	</script>
