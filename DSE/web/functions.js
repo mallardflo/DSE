@@ -117,6 +117,7 @@ var myOptions = {
 };
 
 calculate = function(){
+   
     var timeStart = (new Date()).getTime();
     var origin      = document.getElementById('origin').value; // Le point départ
     var destination = document.getElementById('destination').value; // Le point d'arrivée
@@ -142,18 +143,47 @@ calculate = function(){
         directionsService.route(request, function(response, status){ // Envoie de la requête pour calculer le parcours
             if(status == google.maps.DirectionsStatus.OK){
                 direction.setDirections(response); // Trace l'itinéraire sur la carte et les différentes étapes du parcours
-                var route = response.routes[0];
-      var summaryPanel = document.getElementById('directions_panel');
-      summaryPanel.innerHTML = '';
-      // For each route, display summary information.
-      for (var i = 0; i < route.legs.length; i++) {
-        var routeSegment = i + 1;
-        summaryPanel.innerHTML += '<b>Route Segment: ' + routeSegment + '</b><br>';
-        summaryPanel.innerHTML += route.legs[i].start_address + ' to ';
-        summaryPanel.innerHTML += route.legs[i].end_address + '<br>';
-        summaryPanel.innerHTML += route.legs[i].distance.text + '<br><br>';
+    }
+        });
+        var timeStop = (new Date().getTime());
+        var totalTime = timeStop - timeStart;
+        var destinationForm = document.getElementById('destinationForm');
+        destinationForm.innerHTML += '<br /> Response Time: ' + totalTime + ' ms<br />'; 
+   
 
-            }
+};
+}
+
+
+calculate = function(){
+   
+    var timeStart = (new Date()).getTime();
+    var origin      = document.getElementById('origin').value; // Le point départ
+    var destination = document.getElementById('destination').value; // Le point d'arrivée
+    //var waypoints   = document.getElementById('waypoints');
+    
+    var waypts = [];
+    var waypointsArray = document.getElementById('waypoints');
+    for (var i = 0; i < waypointsArray.length; i++) {
+            waypts.push({
+            location:waypoints[i].value,
+            stopover:true});
+    }
+
+    if(origin && destination && waypoints){
+        var request = {
+            origin      : origin,
+            destination : destination,
+            waypoints: waypts,
+            optimizeWaypoints: true,
+            travelMode  : google.maps.DirectionsTravelMode.WALKING// Mode de conduite
+        }
+        var directionsService = new google.maps.DirectionsService(); // Service de calcul d'itinéraire
+        directionsService.route(request, function(response, status){ // Envoie de la requête pour calculer le parcours
+            if(status == google.maps.DirectionsStatus.OK){
+                direction.setDirections(response); // Trace l'itinéraire sur la carte et les différentes étapes du parcours
+                
+      
         
     }
         });
@@ -165,5 +195,8 @@ calculate = function(){
 
 };
 }
-     initialize();
+
+ initialize();
+
+     
 
