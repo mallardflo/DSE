@@ -194,7 +194,3 @@ calculate = function(){
     document.getElementById('waypoints').innerHTML = "";
 };
 
-
-
- initialize();
-
