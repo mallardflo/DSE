@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.14)  2 JUN 2015 02:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.14)  2 JUN 2015 10:37
 entering extended mode
 **main.tex
 
@@ -329,14 +329,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 ("D:\Documents\Bucharest\Cours\Distributed Systems\Project\Final Report\main.au
-x"
-
-LaTeX Warning: Label `fig:general' multiply defined.
-
-
-LaTeX Warning: Label `fig:general' multiply defined.
-
-)
+x")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
@@ -460,105 +453,113 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ("D:\Documents\Bucharest\Cours\Distributed Systems\Project\Final Report\input/i
 ntroduction.tex")
 ("D:\Documents\Bucharest\Cours\Distributed Systems\Project\Final Report\input/a
-pplication.tex" <input/general_look.png, id=13, 508.14844pt x 456.95718pt>
+pplication.tex" [3] <input/general_look.png, id=16, 508.14844pt x 456.95718pt>
 File: input/general_look.png Graphic file (type png)
 
 <use input/general_look.png>
 Package pdftex.def Info: input/general_look.png used on input line 13.
 (pdftex.def)             Requested size: 355.70148pt x 319.86784pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<input/geoloc.png, id=14, 298.11375pt x 124.96687pt>
+ [4 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final Report/inpu
+t/general_look.png>]
+<input/geoloc.png, id=20, 298.11375pt x 124.96687pt>
 File: input/geoloc.png Graphic file (type png)
  <use input/geoloc.png>
-Package pdftex.def Info: input/geoloc.png used on input line 20.
+Package pdftex.def Info: input/geoloc.png used on input line 21.
 (pdftex.def)             Requested size: 298.11302pt x 124.96657pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<input/geoloc_map.png, id=15, 530.73282pt x 378.66469pt>
+<input/geoloc_map.png, id=21, 530.73282pt x 378.66469pt>
 File: input/geoloc_map.png Graphic file (type png)
 
 <use input/geoloc_map.png>
-Package pdftex.def Info: input/geoloc_map.png used on input line 27.
+Package pdftex.def Info: input/geoloc_map.png used on input line 28.
 (pdftex.def)             Requested size: 371.51044pt x 265.06346pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<input/make_route.png, id=16, 288.3272pt x 210.03468pt>
+ [5 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final Report/inpu
+t/geoloc.png> <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final R
+eport/input/geoloc_map.png>]
+<input/make_route.png, id=26, 288.3272pt x 210.03468pt>
 File: input/make_route.png Graphic file (type png)
 
 <use input/make_route.png>
-Package pdftex.def Info: input/make_route.png used on input line 41.
+Package pdftex.def Info: input/make_route.png used on input line 44.
 (pdftex.def)             Requested size: 201.82765pt x 147.02327pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<input/map_result.png, id=17, 523.20468pt x 372.64218pt>
+<input/map_result.png, id=27, 523.20468pt x 372.64218pt>
 File: input/map_result.png Graphic file (type png)
 
 <use input/map_result.png>
-Package pdftex.def Info: input/map_result.png used on input line 49.
+Package pdftex.def Info: input/map_result.png used on input line 52.
 (pdftex.def)             Requested size: 366.24077pt x 260.84775pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<input/instructions.png, id=18, 447.92343pt x 410.2828pt>
+ [6 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final Report/inpu
+t/make_route.png> <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Fin
+al Report/input/map_result.png>]
+<input/instructions.png, id=31, 447.92343pt x 410.2828pt>
 File: input/instructions.png Graphic file (type png)
 
 <use input/instructions.png>
-Package pdftex.def Info: input/instructions.png used on input line 55.
+Package pdftex.def Info: input/instructions.png used on input line 66.
 (pdftex.def)             Requested size: 403.12737pt x 369.25111pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 61.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 76.
  (D:\Documents\LaTeX\tex\latex\lm\omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 61.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 76.
+
+Overfull \hbox (0.85484pt too wide) in paragraph at lines 76--78
+[]\T1/lmr/m/n/10 Load the API: the API is loaded in the line : \T1/lmr/m/it/10 
+src="http://maps.googleapis.com/maps/api/js"\T1/lmr/m/n/10 ; 
+ []
+
+<input/map_code.jpg, id=32, 629.35126pt x 166.6225pt>
+File: input/map_code.jpg Graphic file (type jpg)
+ <use input/map_code.jpg>
+Package pdftex.def Info: input/map_code.jpg used on input line 81.
+(pdftex.def)             Requested size: 314.67485pt x 83.31104pt.
+
+[7 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final Report/input
+/instructions.png>]
+<input/directions_code.jpg, id=37, 703.62875pt x 205.76875pt>
+File: input/directions_code.jpg Graphic file (type jpg)
+
+<use input/directions_code.jpg>
+Package pdftex.def Info: input/directions_code.jpg used on input line 90.
+(pdftex.def)             Requested size: 316.63pt x 92.59506pt.
 )
 ("D:\Documents\Bucharest\Cours\Distributed Systems\Project\Final Report\input/p
-erformance.tex") [4 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/F
-inal Report/input/general_look.png> <D:/Documents/Bucharest/Cours/Distributed S
-ystems/Project/Final Report/input/geoloc.png>] [5 <D:/Documents/Bucharest/Cours
-/Distributed Systems/Project/Final Report/input/geoloc_map.png> <D:/Documents/B
-ucharest/Cours/Distributed Systems/Project/Final Report/input/make_route.png>]
-[6 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final Report/input
-/map_result.png>] [7 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/
-Final Report/input/instructions.png>]
+erformance.tex" <input/response.png, id=38, 437.38406pt x 217.5628pt>
+File: input/response.png Graphic file (type png)
+
+<use input/response.png>
+Package pdftex.def Info: input/response.png used on input line 6.
+(pdftex.def)             Requested size: 306.16675pt x 152.29292pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final Report/input
+/map_code.jpg> <D:/Documents/Bucharest/Cours/Distributed Systems/Project/Final 
+Report/input/directions_code.jpg>]) [9 <D:/Documents/Bucharest/Cours/Distribute
+d Systems/Project/Final Report/input/response.png>]
 ("D:\Documents\Bucharest\Cours\Distributed Systems\Project\Final Report\main.au
-x")
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+x") ) 
 Here is how much of TeX's memory you used:
- 4961 strings out of 493921
- 65354 string characters out of 3150897
- 134365 words of memory out of 3000000
- 8111 multiletter control sequences out of 15000+200000
- 58709 words of font info for 62 fonts, out of 3000000 for 9000
+ 4988 strings out of 493921
+ 65872 string characters out of 3150897
+ 131366 words of memory out of 3000000
+ 8133 multiletter control sequences out of 15000+200000
+ 62972 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 37i,8n,39p,748b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Documents/LaTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Documents/LaTeX/font
-s/enc/dvips/lm/lm-ec.enc}<D:/Documents/LaTeX/fonts/type1/public/lm/lmbx10.pfb><
-D:/Documents/LaTeX/fonts/type1/public/lm/lmbx12.pfb><D:/Documents/LaTeX/fonts/t
-ype1/public/lm/lmcsc10.pfb><D:/Documents/LaTeX/fonts/type1/public/lm/lmr10.pfb>
-<D:/Documents/LaTeX/fonts/type1/public/lm/lmr12.pfb><D:/Documents/LaTeX/fonts/t
-ype1/public/lm/lmsy10.pfb>
-Output written on main.pdf (7 pages, 1125539 bytes).
+ 37i,8n,39p,744b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Documents/LaTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Documents/LaTeX/f
+onts/enc/dvips/lm/lm-ec.enc}<D:/Documents/LaTeX/fonts/type1/public/lm/lmbx10.pf
+b><D:/Documents/LaTeX/fonts/type1/public/lm/lmbx12.pfb><D:/Documents/LaTeX/font
+s/type1/public/lm/lmcsc10.pfb><D:/Documents/LaTeX/fonts/type1/public/lm/lmr10.p
+fb><D:/Documents/LaTeX/fonts/type1/public/lm/lmr12.pfb><D:/Documents/LaTeX/font
+s/type1/public/lm/lmri10.pfb><D:/Documents/LaTeX/fonts/type1/public/lm/lmsy10.p
+fb>
+Output written on main.pdf (9 pages, 1194006 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,8 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Application}{3}
-\contentsline {subsection}{\numberline {2.1}Presentation}{3}
-\contentsline {subsection}{\numberline {2.2}Technologies}{4}
-\contentsline {section}{\numberline {3}Proof of testing}{5}
+\contentsline {section}{\numberline {2}Application}{4}
+\contentsline {subsection}{\numberline {2.1}Presentation}{4}
+\contentsline {subsection}{\numberline {2.2}Technologies}{7}
+\contentsline {paragraph}{Google Maps API and JavaScript}{7}
+\contentsline {section}{\numberline {3}Proof of testing}{8}
+\contentsline {section}{\numberline {4}Conclusion}{9}
